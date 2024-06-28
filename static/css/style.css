@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+header {
+    /* background-image: url('header-background.jpg'); */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 3.5rem;
+}
+
+.course-details p {
+    font-size: 1.1rem;
+}
+
+.course-what-you-will-learn {
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+.what-you-will-learn-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.what-you-will-learn-box p {
+    margin-bottom: 10px;
+}
+
+.checkmark {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+footer {
+    color: #ccc;
+}
+

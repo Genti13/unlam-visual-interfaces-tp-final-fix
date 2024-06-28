@@ -1,0 +1,154 @@
+.cards-container .price-old {
+    text-decoration: line-through;
+}
+
+.cards-container .title a {
+    text-decoration: none;
+    color: #000;
+}
+
+.score {
+    text-decoration: none;
+    color: #ff8c00;
+}
+
+.cards-container .card {
+    border: none;
+}
+
+.cards-container .card:hover {
+    cursor: pointer;
+    box-shadow: 10px 5px 5px rgb(221, 220, 220);
+}
+
+.cards-container .card:hover .title a {
+    color: #16aa2a;
+}
+
+.cards-container .card {
+    width: 98%;
+}
+
+
+@media (min-width: 768px) {
+    .cards-container .card {
+        width: 48%
+    }
+
+}
+
+@media (min-width: 992px) {
+    .cards-container .card {
+        width: 22%
+    }
+
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+}
+
+.page>.filters {
+    background-color: #16aa2a;
+}
+
+.w-20{
+    width: 20% !important
+}
+
+#lenguaje:hover{
+    cursor: pointer;
+}
+
+#filtros-small{
+    position: absolute;
+    top: 1rem;
+    left: 0.1rem;
+}
+
+
+@media (max-width: 768px) {
+    #filtros-small{
+        display: block;
+    }
+
+    #filtros-wide{
+        display: none;
+    }
+
+}
+
+@media (min-width: 768px) {
+    #filtros-small{
+        display: none;
+    }
+
+    #filtros-wide{
+        display: block;
+    }
+
+}
+
+/**/
+
+.carousel-inner {
+    padding: 1em;
+}
+
+.card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #e1e1e1;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (min-width: 768px) {
+    .carousel-item {
+        margin-right: 0;
+        flex: 0 0 20%;
+        display: block;
+    }
+
+    .carousel-inner {
+        display: flex;
+    }
+}
+
+.card .img-wrapper {
+    max-width: 100%;
+    height: 13em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item .card img {
+    max-height: 100%;
+}
+
+@media (max-width: 767px) {
+    .card .img-wrapper {
+        height: 17em;
+    }
+}
+
+
+.carousel-item .img-wrapper img {
+    border-radius: 360px;
+    width: 126px;
+    height: 126px;
+}
+
+.carousel-item .card-img-container {
+    height: 126px;
+}
