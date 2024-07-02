@@ -4,14 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Camino de HTML, CSS y JS completo desde cero</title>
+    <title>Curso de Python 3 completo desde cero</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="static/css/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/cards.css">
+    <link rel="stylesheet" href="static/css/style_detalle_curso.css">
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="home.html">TechTrails</a>
@@ -37,107 +40,57 @@
             </div>
         </div>
     </nav>
-    <header class="bg-dark text-white py-3">
+
+    <div class="container mt-3 mb-3">
+        <div class="row">
+            <div class="col-md-8">
+                <form class="input-group">
+                    <input class="form-control" type="search" placeholder="Buscar tu camino" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i>
+                        Buscar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <header class="banner text-center bg-dark text-white">
         <div class="container text-center">
-            <h1 class="display-4">Camino del front-end</h1>
-            <p class="lead">Aprende los principios de la programacion web.</p>
-            <a href="#" class="btn btn-primary btn-lg mt-3">Inscríbete ahora</a>
+            <h1 class="display-4">Curso de Python 3 completo desde cero</h1>
+            <p class="lead">Aprende Python desde los fundamentos hasta técnicas avanzadas.</p>
+
         </div>
     </header>
-    <section course-what-you-will-learn bg-light py-5>
-        <section class="course-details py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <h2 class="mb-4">HTML</h2>
-                        <p class="lead"><strong>Duración:</strong> 10 horas</p>
-                        <p class="lead"><strong>Nivel:</strong> Principiante</p>
-                        <p class="lead"><strong>Instructor:</strong> Gaetan Facundo</p>
-                        <p class="lead mt-4">Este curso de HTML está diseñado para proporcionar una comprensión sólida
-                            de los conceptos básicos y avanzados del lenguaje de marcado de hipertexto (HTML), que es
-                            esencial para la creación y el diseño de páginas web. A lo largo del curso, los estudiantes
-                            aprenderán a estructurar documentos web utilizando etiquetas HTML, incorporar elementos
-                            multimedia como imágenes y videos, y aplicar estilos básicos para mejorar la apariencia de
-                            sus sitios web. Además, se explorarán las mejores prácticas y las últimas actualizaciones
-                            del estándar HTML5, permitiendo a los participantes crear páginas web modernas y accesibles.
-                            El curso es ideal para principiantes que desean iniciarse en el desarrollo web, así como
-                            para aquellos que buscan reforzar sus conocimientos y habilidades en HTML.</p>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <img src="static/img/html.jpg" class="card-img-top" alt="Imagen del curso de html">
-                            <div class="card-body">
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="course-details py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <h2 class="mb-4">CSS</h2>
-                        <p class="lead"><strong>Duración:</strong> 15 horas</p>
-                        <p class="lead"><strong>Nivel:</strong> Principiante </p>
-                        <p class="lead"><strong>Instructor:</strong> Gaetan Facundo</p>
-                        <p class="lead mt-4">Este curso de CSS (Cascading Style Sheets) está diseñado para enseñar a los
-                            estudiantes cómo dar estilo y formato a las páginas web de manera efectiva y atractiva. CSS
-                            es un lenguaje crucial para el diseño web, y este curso abarca desde los conceptos básicos
-                            hasta técnicas avanzadas de estilización. Los participantes aprenderán a utilizar
-                            selectores, propiedades y valores para controlar el diseño visual de los elementos HTML,
-                            trabajar con layout y posicionamiento, y aplicar animaciones y transiciones para mejorar la
-                            experiencia del usuario. Además, se explorarán las últimas características de CSS3,
-                            incluyendo flexbox y grid, que permiten crear diseños más complejos y responsivos. A través
-                            de proyectos prácticos, los estudiantes podrán aplicar lo aprendido y desarrollar
-                            habilidades para crear sitios web modernos y profesionales. Este curso es ideal para
-                            principiantes que quieren iniciarse en el diseño web, así como para diseñadores y
-                            desarrolladores que desean perfeccionar sus conocimientos de CSS</p>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <img src="static/img/css.jpg" class="card-img-top" alt="Imagen del curso de css">
-                            <div class="card-body">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </section>
     <section class="course-details py-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                    <h2 class="mb-4">JS</h2>
-                    <p class="lead"><strong>Duración:</strong> 25 horas</p>
-                    <p class="lead"><strong>Nivel:</strong> Principiante </p>
-                    <p class="lead"><strong>Instructor:</strong> Gaetan Facundo</p>
-                    <p class="lead mt-4">Este curso de JavaScript está diseñado para enseñar a los estudiantes cómo
-                        añadir interactividad y dinamismo a las páginas web. JavaScript es un lenguaje de programación
-                        esencial para el desarrollo web moderno, y este curso cubre desde los fundamentos hasta
-                        conceptos avanzados. Los participantes aprenderán a manipular el Document Object Model (DOM)
-                        para crear experiencias de usuario interactivas, manejar eventos, y trabajar con APIs. Además,
-                        se abordarán temas como la programación asincrónica, el uso de promesas, y las prácticas de
-                        depuración y prueba de código. A lo largo del curso, los estudiantes realizarán proyectos
-                        prácticos que les permitirán aplicar lo aprendido en situaciones del mundo real. Este curso es
-                        ideal tanto para principiantes que desean aprender a programar en JavaScript como para
-                        desarrolladores con experiencia que buscan actualizar y ampliar sus habilidades.</p>
+                    <h2 class="mb-4">Python </h2>
+                    <p class="lead"><strong>Duración:</strong> 10 horas</p>
+                    <p class="lead"><strong>Nivel:</strong> Principiante a Avanzado</p>
+                    <p class="lead"><strong>Instructor:</strong> Gentile</p>
+                    <p class="lead mt-4">Este curso de Python está diseñado para principiantes que desean adentrarse en
+                        el mundo de la programación. A lo largo del curso, los estudiantes aprenderán los fundamentos de
+                        Python, incluyendo su sintaxis básica, estructuras de control, funciones, y manejo de errores.
+                        Además, se explorarán conceptos más avanzados como el uso de librerías, manipulación de archivos
+                        y creación de proyectos simples. El objetivo es proporcionar una comprensión sólida de Python,
+                        preparando a los estudiantes para desarrollar aplicaciones y scripts eficientes. Al finalizar,
+                        los participantes estarán capacitados para continuar su aprendizaje en áreas más específicas
+                        como análisis de datos, desarrollo web o inteligencia artificial.</p>
                 </div>
                 <div class="col-lg-4">
                     <div class="card">
-                        <img src="static/img/js.jpg" class="card-img-top" alt="Imagen del curso de js">
+                        <img src="static/img/python-course-image.png" class="card-img-top"
+                            alt="Imagen del curso de Python">
                         <div class="card-body">
-
+                            <h5 class="card-title">¿Por qué tomar este curso?</h5>
+                            <p class="card-text">Aprende los fundamentos de Python: sintaxis, control de flujo y
+                                funciones. Perfecto para principiantes.</p>
+                            <a href="formulario-de-pago.html" class="btn btn-primary mt-3">Inscríbete ahora</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
     </section>
 
     <section class="course-what-you-will-learn bg-light py-5">
@@ -148,10 +101,10 @@
                     <div class="what-you-will-learn-box p-4">
                         <div class="row">
                             <div class="col-md-6">
-                                <p><span class="checkmark">&#10003;</span> Fundamentos y sintaxis de HTML</p>
+                                <p><span class="checkmark">&#10003;</span> Fundamentos y sintaxis de Python</p>
                                 <p><span class="checkmark">&#10003;</span> Uso de variables y tipos de datos</p>
                                 <p><span class="checkmark">&#10003;</span> Estructuras de control y bucles</p>
-                                <p><span class="checkmark">&#10003;</span> Funciones y módulos en HTML</p>
+                                <p><span class="checkmark">&#10003;</span> Funciones y módulos en Python</p>
                             </div>
                             <div class="col-md-6">
                                 <p><span class="checkmark">&#10003;</span> Manipulación de listas, tuplas y diccionarios
@@ -171,21 +124,21 @@
         <div class="container">
             <h2 class="text-center mb-4">Contenidos del curso</h2>
             <div id="accordion">
-                <!-- Camino a programacion -->
+                <!-- Introducción a Python -->
                 <div class="card">
                     <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
                             <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
                                 aria-expanded="true" aria-controls="collapseOne">
-                                Introducción a HTML
+                                Introducción a Python
                             </button>
                         </h5>
                     </div>
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
-                            <p>En esta sección aprenderás los conceptos básicos de HTML, incluyendo:</p>
+                            <p>En esta sección aprenderás los conceptos básicos de Python, incluyendo:</p>
                             <ul>
-                                <li>Fundamentos del lenguaje HTML</li>
+                                <li>Fundamentos del lenguaje Python</li>
                                 <li>Sintaxis básica y estructuras de control</li>
                                 <li>Variables y tipos de datos</li>
                             </ul>
@@ -193,7 +146,6 @@
                         </div>
                     </div>
                 </div>
-
 
                 <!-- Variables y tipos de datos -->
                 <div class="card">
@@ -209,7 +161,7 @@
                         <div class="card-body">
                             <p>En este módulo profundizarás en:</p>
                             <ul>
-                                <li>Declaración y uso de variables en HTML</li>
+                                <li>Declaración y uso de variables en Python</li>
                                 <li>Tipos de datos simples y compuestos</li>
                                 <li>Ejemplos prácticos y ejercicios para dominar estos conceptos</li>
                             </ul>
@@ -231,7 +183,7 @@
                         <div class="card-body">
                             <p>Aquí aprenderás a manejar:</p>
                             <ul>
-                                <li>Condicionales y bucles en HTML</li>
+                                <li>Condicionales y bucles en Python</li>
                                 <li>Uso de listas, tuplas, diccionarios y conjuntos</li>
                                 <li>Prácticas recomendadas y patrones comunes</li>
                             </ul>
@@ -253,7 +205,7 @@
                         <div class="card-body">
                             <p>Este módulo aborda:</p>
                             <ul>
-                                <li>Definición y uso de funciones en HTML</li>
+                                <li>Definición y uso de funciones en Python</li>
                                 <li>Creación y gestión de módulos reutilizables</li>
                                 <li>Ejemplos prácticos para mejorar tu habilidad de programación</li>
                             </ul>
