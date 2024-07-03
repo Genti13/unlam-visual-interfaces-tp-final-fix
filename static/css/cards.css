@@ -32,14 +32,14 @@
 
 @media (min-width: 768px) {
     .cards-container .card {
-        width: 48%
+        width: 45%
     }
 
 }
 
 @media (min-width: 992px) {
     .cards-container .card {
-        width: 22%
+        width: 21%
     }
 
 }
@@ -62,33 +62,71 @@
 }
 
 #filtros-small{
-    position: absolute;
-    top: 1rem;
-    left: 0.1rem;
+    position: fixed;
+    bottom: 1rem;
+    left: 0.3rem;
+}
+
+#filtros-small button{
+    background-color: #16aa2a;
+    border-radius: 360px;
+    width: 3rem;
+    height: 3rem;
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1370px) {
     #filtros-small{
         display: block;
     }
 
-    #filtros-wide{
+    .filters-wide{
         display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .ir-curso-small{
+        display: block;
+    }
+
+    .ir-curso-wide{
+        display: none;
+    }
+
+}
+
+@media (min-width: 1370px) {
+    #filtros-small{
+        display: none;
+    }
+
+    .filters-wide{
+        display: block;
+    }
+
+    .ir-curso-small{
+        display: none;
+    }
+
+    .ir-curso-wide{
+        display: block;
     }
 
 }
 
 @media (min-width: 768px) {
-    #filtros-small{
+
+    .ir-curso-small{
         display: none;
     }
 
-    #filtros-wide{
+    .ir-curso-wide{
         display: block;
     }
 
 }
+
 
 /**/
 
@@ -152,3 +190,35 @@
 .carousel-item .card-img-container {
     height: 126px;
 }
+
+.lista-enlaces img{
+    max-height: 9rem;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.lista-enlaces>div{
+    border-bottom: 2px solid var(--bs-primary);
+}
+
+.price-old{
+    text-decoration: line-through;
+}
+
+.bg-teal-700{
+    background-color: #13795b;
+}
+
+.btn-teal-700{
+    background-color: #13795b;
+    color: white;
+}
+
+.btn-teal-700:hover{
+    background-color: #0d503c;
+    color: white;
+}
+
+
