@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.course-details h2 {
+    text-decoration: underline;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    color: white;
+}
+
+.course-details p {
+    font-size: 1.2rem;
+    /* Aumenta el tamaño de la letra de las descripciones del curso */
+    margin-bottom: 15px;
+    /* Aumenta el espacio entre los párrafos */
+}
+
+.course-what-you-will-learn {
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+.what-you-will-learn-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.what-you-will-learn-box p {
+    margin-bottom: 10px;
+}
+
+.checkmark {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.card {
+    margin-top: 30px;
+    /* Aumenta el espacio entre las tarjetas */
+    margin-bottom: 30px;
+    /* Aumenta el espacio entre las tarjetas y las descripciones */
+}
+
+footer {
+    color: #ccc;
+}
