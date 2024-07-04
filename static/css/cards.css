@@ -21,7 +21,7 @@
     box-shadow: 10px 5px 5px rgb(221, 220, 220);
 }
 
-.cards-container .card:hover .title a {
+.cards-container .card:hover .title {
     color: #16aa2a;
 }
 
