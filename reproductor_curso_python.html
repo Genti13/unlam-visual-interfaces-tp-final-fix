@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualización de Video del Curso - TechTrails</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .btn-custom {
+            background-color: green;
+            border: 2px solid green;
+            color: white;
+        }
+        .btn-custom:hover {
+            background-color: darkgreen;
+            border-color: darkgreen;
+        }
+        .breadcrumb a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .breadcrumb a:hover {
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">TechTrails</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="caminos.html">Caminos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iniciar-sesion.html">Iniciar Sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-primary" href="registrarse.html">Registrarse</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="home.html">Inicio</a></li>
+                <li class="breadcrumb-item"><a href="cursos.html">Cursos</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Curso de Programación con Python</li>
+            </ol>
+        </nav>
+        
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <h5>Curso de Programación con Python</h5>
+                    </div>
+                    <div class="card-body">
+                        <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2p4OGYxZHlzNHczNWd6dnBtd2UwMzR5enUybnZoMzdjODhxMTNqeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7c8zUY2t0dsEcxu5on/giphy.webp" width="100%" alt="GIF en bucle">
+                    </div>
+                    <div class="card-footer text-muted">
+                        En este curso aprenderás las nociones centrales del lenguaje Java, así como las virtudes del paradigma de programacion orientada a objetos.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active">
+                        Contenido del Curso
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">1. Fundamentos y sintaxis de Python</a>
+                    <a href="#" class="list-group-item list-group-item-action">2. Uso de variables y tipos de datos</a>
+                    <a href="#" class="list-group-item list-group-item-action">3. Estructuras de control y bucles</a>
+                    <a href="#" class="list-group-item list-group-item-action">4. Funciones y módulos en Python</a>
+                    <a href="#" class="list-group-item list-group-item-action">5. Manipulación de listas, tuplas y diccionarios</a>
+                    <a href="#" class="list-group-item list-group-item-action">6. Programación orientada a objetos (POO)</a>
+                    <a href="#" class="list-group-item list-group-item-action">7. Manejo de excepciones</a>
+                    <a href="#" class="list-group-item list-group-item-action">8. Prácticas y proyectos reales</a>
+                </div>
+            
+                <div class="list-group mt-3">
+                    <a href="#" class="list-group-item list-group-item-action active">
+                        Material del Curso
+                    </a>
+                    <a href="archivos-iniciales.zip" class="list-group-item list-group-item-action">archivos-iniciales.zip</a>
+                    <a href="program.zip" class="list-group-item list-group-item-action">program.zip</a>
+                </div>
+            
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-3">
+                    <a href="cursos.html" class="btn btn-custom">🚀 Seguir Aprendiendo! ➔</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer class="footer mt-5 p-3 bg-primary text-white">
+        <div class="container">
+            <p>Miranda Ezequiel</p>
+            <p>Gaetan Facundo Ivan</p>
+            <p>Franco Ignacio</p>
+            <p>Gentile Aumente Alan</p>
+            <p>Ibarra Marcelo</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
